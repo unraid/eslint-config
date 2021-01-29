@@ -1,0 +1,30 @@
+{
+  "name": "@unraid/eslint-config",
+  "version": "0.0.1",
+  "description": "An eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unraid/eslint-config.git"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint"
+  ],
+  "author": "Alexis Tyler <xo@wvvw.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unraid/eslint-config/issues"
+  },
+  "homepage": "https://github.com/unraid/eslint-config#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint": "^7.18.0",
+    "eslint-config-xo": "^0.34.0",
+    "eslint-config-xo-typescript": "^0.37.0"
+  }
+}
