@@ -21,11 +21,14 @@
   },
   "homepage": "https://github.com/unraid/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.14.1",
-    "@typescript-eslint/parser": "^4.14.1",
-    "eslint": "^7.18.0",
-    "eslint-config-xo": "^0.34.0",
-    "eslint-config-xo-typescript": "^0.37.0",
-    "eslint-plugin-unicorn": "^27.0.0"
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.20.0",
+    "eslint-config-xo": "^0.41.0",
+    "eslint-config-xo-typescript": "^0.51.1",
+    "eslint-plugin-unicorn": "^43.0.1"
+  },
+  "exports": {
+    "./node": "./node.js"
   }
 }
