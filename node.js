@@ -30,6 +30,7 @@ module.exports = {
         ],
 		parser: '@typescript-eslint/parser',
 		rules: {
+            '@typescript-eslint/object-curly-spacing': ['error', 'always'],
 			'@typescript-eslint/member-ordering': ['off'],
             '@typescript-eslint/restrict-template-expressions': ['warn', { allowNumber: true, allowBoolean: true }]
 		}
